@@ -1,0 +1,127 @@
+{
+  "mean": 1150000,
+  "results": [
+    {
+      "id": "5841706065",
+      "created": "2026-08-14T16:02:31Z",
+      "salary_is_predicted": "0",
+      "description": "Position: Computer Vision Engineer Experience: 2\u20133 Years Location: Bengaluru, Karnataka Employment Type: Full-time About the Role We are seeking a highly motivated Computer Vision Engineer to join our autonomy and avionics team. The role involves developing, implementing, and validating computer vision models and algorithms and pipelines for UAVs operating in both GNSS-available and GNSS-denied environments. The ideal candidate should have a strong foundation in theory of deep learning and mach\u2026",
+      "category": {
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "tag": "it-jobs"
+      },
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Inferigence Quotient"
+      },
+      "title": "Computer Vision Engineer",
+      "location": {
+        "display_name": "Bangalore, Karnataka",
+        "area": [
+          "India",
+          "Karnataka",
+          "Bangalore"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "salary_max": 1500000,
+      "salary_min": 800000,
+      "contract_time": "full_time",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTcwNjA2NSIsInMiOiJTZ0pmaGtHWjhSR0pmdFV5elEwXzR3In0.yXtIf6QpOhniQPjy6QzneYVMHoQ4nHBpwN8O-9UX3FQ",
+      "redirect_url": "https://www.adzuna.in/details/5841706065?utm_medium=api&utm_source=0652c02a",
+      "__CLASS__": "Adzuna::API::Response::Job"
+    },
+    {
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDUwNjQxMCIsInMiOiJTZ0pmaGtHWjhSR0pmdFV5elEwXzR3In0.cHpIDAjexGMQ4uy4tFKsXfe0Apl-NZC3vVQ2YFLoUJU",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.in/details/5840506410?utm_medium=api&utm_source=0652c02a",
+      "contract_type": "permanent",
+      "contract_time": "full_time",
+      "location": {
+        "display_name": "Bangalore, Karnataka",
+        "area": [
+          "India",
+          "Karnataka",
+          "Bangalore"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      },
+      "company": {
+        "display_name": "Dolby Laboratories",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "__CLASS__": "Adzuna::API::Response::Category",
+        "label": "Engineering Jobs",
+        "tag": "engineering-jobs"
+      },
+      "description": "Join the leader in entertainment innovation and help us design the future. At Dolby, science meets art, and high tech means more than computer code. As a member of the Dolby team, you\u2019ll see and hear the results of your work everywhere, from movie theaters to smartphones. We continue to revolutionize how people create, deliver, and enjoy entertainment worldwide. To do that, we need the absolute best talent. We\u2019re big enough to give you all the resources you need, and small enough so you can mak\u2026",
+      "id": "5840506410",
+      "salary_is_predicted": "0",
+      "created": "2026-08-13T21:49:22Z",
+      "title": "Senior Researcher - Sight Lab"
+    },
+    {
+      "title": "Senior Product Manager, Google One, Personalization, Promotions, Upgrades",
+      "company": {
+        "display_name": "Google",
+        "__CLASS__": "Adzuna::API::Response::Company"
+      },
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "Minimum qualifications: Bachelor's degree or equivalent practical experience. 8 years of experience in product management or a related technical role. Experience in building consumer-facing products or subscription systems. Preferred qualifications: Experience with products that have a direct, measurable impact on user growth, engagement, or business. Ability to think in systems and design for scalability while maintaining a sharp focus on business outcomes. Ability to work effectively in a cro\u2026",
+      "id": "5840388894",
+      "created": "2026-08-13T20:55:08Z",
+      "salary_is_predicted": "0",
+      "location": {
+        "area": [
+          "India",
+          "Karnataka",
+          "Bangalore"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location",
+        "display_name": "Bangalore, Karnataka"
+      },
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "redirect_url": "https://www.adzuna.in/details/5840388894?utm_medium=api&utm_source=0652c02a",
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDM4ODg5NCIsInMiOiJTZ0pmaGtHWjhSR0pmdFV5elEwXzR3In0.dodwFNmff6NXSCY1L5eDJEYi3Y4BB4yDEyY7ca6VEeE"
+    },
+    {
+      "contract_time": "full_time",
+      "latitude": 12.95703,
+      "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzOTI2ODM4NiIsInMiOiJTZ0pmaGtHWjhSR0pmdFV5elEwXzR3In0.eGxYrZ9-pqRp4YH6XwuUTNTcyarqVcznLlOr2Bm0wao",
+      "redirect_url": "https://www.adzuna.in/land/ad/5839268386?se=SgJfhkGZ8RGJftUyzQ0_4w&utm_medium=api&utm_source=0652c02a&v=08E40ADB89E0FE5930964E6FB8D63B2927F29B6A",
+      "__CLASS__": "Adzuna::API::Response::Job",
+      "salary_is_predicted": "0",
+      "id": "5839268386",
+      "created": "2026-08-13T08:00:35Z",
+      "category": {
+        "tag": "it-jobs",
+        "label": "IT Jobs",
+        "__CLASS__": "Adzuna::API::Response::Category"
+      },
+      "description": "This job is with Warner Bros. Discovery, an inclusive employer and a member of myGwork \u2013 the largest global platform for the LGBTQ business community. Please do not contact the recruiter directly. Welcome to Warner Bros. Discovery\u2026 the stuff dreams are made of. Who We Are\u2026 When we say, \u201cthe stuff dreams are made of,\u201d we\u2019re not just referring to the world of wizards, dragons and superheroes, or even to the wonders of Planet Earth. Behind WBD\u2019s vast portfolio of iconic content and beloved brands,\u2026",
+      "company": {
+        "__CLASS__": "Adzuna::API::Response::Company",
+        "display_name": "Warner Bros. Discovery"
+      },
+      "title": "Staff Software Engineer - Python, Computer Vision",
+      "longitude": 77.59837,
+      "location": {
+        "display_name": "Bangalore, Karnataka",
+        "area": [
+          "India",
+          "Karnataka",
+          "Bangalore"
+        ],
+        "__CLASS__": "Adzuna::API::Response::Location"
+      }
+    }
+  ],
+  "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+  "count": 4
+}

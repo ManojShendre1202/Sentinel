@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "discovery": "./graphs/discovery_graph.py:build_graph"
+  },
+  "env": "./backend/.env"
+}

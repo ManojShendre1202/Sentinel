@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+db.sqlite3
+venv/
+.venv/
+staticfiles/
+media/
+gmail_token.json
+graphs/checkpoints.sqlite
+graphs/batch_data/
+.langgraph_api/

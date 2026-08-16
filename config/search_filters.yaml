@@ -1,0 +1,88 @@
+# Sentinel — job discovery search-filter spec
+#
+# Single tunable source of truth for what Sentinel searches for across
+# TheirStack / JobsPipe / Adzuna. Derived from docs/profile.md's Preferences
+# block (target roles, CTC floor, target company tiers) so search criteria
+# and the scoring rubric can't drift apart.
+#
+# Edit this file to tune search breadth. Do NOT hardcode title/seniority/
+# country strings inside sources/*.py — read them from here.
+
+# Search titles: one string per query term. Mirrors profile.md's
+# "Target roles" list, broadened slightly with common postings-language
+# synonyms so exact-title mismatches don't silently drop good matches.
+titles:
+  - "Computer Vision Engineer"
+  - "Machine Learning Engineer"
+  - "AI Engineer"
+  - "AI/ML Engineer"
+  - "Backend Engineer Python"
+  - "Data Engineer"
+  - "Software Engineer AI"
+  - "Research Engineer"
+  - "NLP Engineer"
+
+# Seniority filter deliberately NOT applied at fetch time (2026-08-16,
+# revised): seniority labels are inconsistently populated across all three
+# sources (e.g. theirstack_sample.json / jobspipe_sample.json both show
+# `"seniority": null` on real postings) and Indian postings routinely blur
+# junior/mid/senior bands within one listing. A fetch-time filter would
+# silently drop real matches on unlabeled or mislabeled postings. Seniority
+# fit is judged by the Claude scoring pass instead, which has the full
+# description text to work with. Left here (unused by query_builder.py) as
+# a reference of the enum values each source supports, in case a fetch-time
+# cut is reintroduced later:
+#   theirstack: junior / mid_level / senior / staff / c_level
+#   jobspipe:   entry_level / mid_level / senior / director / executive
+
+# ISO country codes to search.
+countries:
+  - "IN"
+
+# Also accept remote listings regardless of country (profile.md: "open to
+# relocation; remote acceptable" — but see `preferred_locations` below,
+# which narrows the *non-remote* in-country search).
+include_remote: true
+
+# Preferred in-country city/location text, used where a source supports a
+# plain-text location filter (Adzuna `where`, JobsPipe `job_location_or`).
+# Revised 2026-08-16: not open to relocation in practice — Bangalore is the
+# real target, country-wide IN + remote is the outer net, not the primary
+# ask. TheirStack's location filter requires structured location IDs (a
+# separate lookup endpoint), so it isn't applied there at fetch time;
+# non-Bangalore/non-remote TheirStack results are left for the scoring pass
+# to penalize instead.
+preferred_locations:
+  - "Bangalore"
+
+# Discard postings older than this many days at fetch time. Matches the
+# weekly discovery cadence (agent_memory/sentinel_project.md) — no reason to
+# spend credits on jobs stale enough to likely be filled/closed already.
+posted_max_age_days: 14
+
+# Per-call page size. Kept modest deliberately: TheirStack charges 1 credit
+# per job *returned*, so page size directly controls credit burn per call.
+page_size:
+  theirstack: 25
+  jobspipe: 50
+  adzuna: 50
+
+# CTC floor from profile.md's Preferences block, in LPA (lakhs per annum,
+# INR). Revised 2026-08-16: NOT applied as a fetch-time filter on any
+# source, including Adzuna (previously used Adzuna's salary_min). Most
+# Indian postings across all three sources omit salary entirely or list it
+# per-month/unstructured (see adzuna_sample.json: no salary fields
+# populated at all on the real sample) — a hard filter risks dropping
+# real matches that just don't declare salary, rather than excluding
+# genuinely-underpaying ones. Left here purely as an input to the Claude
+# scoring rubric (open Q3 in agent_memory/sentinel_project.md), not to
+# query_builder.py.
+ctc_floor_lpa: 20
+
+# Company tiers from profile.md — informational only, NOT a fetch filter
+# (none of the three sources support filtering by company name/tier at
+# search time). Carried here so the scoring rubric can reference the same
+# tier list this file's titles were built against, without re-deriving it.
+excluded_employers_keywords:
+  - "staffing"
+  - "outsourcing"
