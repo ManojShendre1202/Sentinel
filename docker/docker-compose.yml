@@ -2,9 +2,11 @@ services:
 
   # ── Django (Waitress) — plain HTTP: API, admin, static ──────────────────
   django:
-    build: .
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
     command: python server.py
-    env_file: backend/.env
+    env_file: ../backend/.env
     environment:
       - DJANGO_SETTINGS_MODULE=backend.settings
       - PYTHONUNBUFFERED=1
@@ -14,9 +16,11 @@ services:
 
   # ── Sentinel worker — owns the extension WebSocket + LangGraph loop ─────
   worker:
-    build: .
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
     command: python -m worker.main
-    env_file: backend/.env
+    env_file: ../backend/.env
     environment:
       - DJANGO_SETTINGS_MODULE=backend.settings
       - EXTENSION_WS_PORT=8140

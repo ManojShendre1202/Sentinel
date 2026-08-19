@@ -72,18 +72,7 @@ def _wire_graph() -> StateGraph:
     return graph
 
 
-def build_graph():
-    """langgraph.json/Studio factory entrypoint — no args. Studio's factory
-    injector auto-injects its own runtime object into any parameter named
-    `checkpointer`/`config`/etc., so this signature deliberately takes none;
-    the platform manages its own persistence. Standalone use (via run()
-    below) goes through _build_graph_with_checkpointer() instead."""
-    return _wire_graph().compile()
-
-
 def _build_graph_with_checkpointer(checkpointer):
-    """Standalone use only (weekly_discovery_job.py) — not the Studio
-    factory, so no reserved-name collision here."""
     return _wire_graph().compile(checkpointer=checkpointer)
 
 
