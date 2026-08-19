@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Sentinel",
+  "version": "0.1.0",
+  "description": "Sentinel job-application agent — extension side (socket test build)",
+  "permissions": ["storage", "scripting", "tabs", "alarms", "offscreen"],
+  "host_permissions": [
+    "http://localhost:8100/*",
+    "ws://localhost:8100/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,1743 @@
+
+===== STEP 1 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Skip to search",
+          "visible": false
+        },
+        {
+          "text": "Skip to main content",
+          "visible": false
+        },
+        {
+          "text": "Skip to primary content",
+          "visible": false
+        },
+        {
+          "text": "Skip to aside",
+          "visible": false
+        },
+        {
+          "text": "Skip to footer",
+          "visible": false
+        },
+        {
+          "text": "Close jump menu",
+          "visible": false
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Me",
+          "visible": true
+        },
+        {
+          "text": "For Business",
+          "visible": true
+        },
+        {
+          "text": "More options",
+          "visible": true
+        },
+        {
+          "text": "Saved",
+          "visible": true
+        },
+        {
+          "text": "Next",
+          "visible": true
+        },
+        {
+          "text": "\u2026 more",
+          "visible": true
+        },
+        {
+          "text": "Privacy & Terms",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [
+        {
+          "href": "https://www.linkedin.com/mynetwork",
+          "text": "My Network",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/jobs/",
+          "text": "Jobs",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/messaging/",
+          "text": "Messaging",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/notifications/",
+          "text": "25\nNotifications",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job",
+          "text": "Hire with AI",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/company/nvidia/life/",
+          "text": "NVIDIA",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/jobs/view/4395479506/",
+          "text": "Full-time",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fnvidia%2Ewd5%2Emyworkdayjobs%2Ecom%2FNVIDIAExternalCareerSite%2Fjob%2FIndia-Bengaluru%2FAI-Developer-Technology-Engineer_JR2008156%3Fsource%3Djobboardlinkedin&urlhash=O7lS&mt=8trbAHGx7MOKPxdM4RZ_GYbjoXlfjPleZgJIhDiNHfQLyHR2dlSnHEw4ARstfZf6Xo35i85ElSBpR4VVbOrTSSleBP3a&isSdui=true",
+          "text": "Apply",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/premium/redeem/?_ed=0_bvLJH59RTSY-u5c6PMUa4IW0M54p9mxZpuVkfRvTl7r&upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell_winback%3AJob+Seeker%3AIn-Product&referenceId=5Xuyg8gnTgOS7D%2FVjW84wg%3D%3D&customKey=wb_c&redeemTypeV2=DISCOUNT",
+          "text": "Reactivate Premium: 50% Off",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc%7Eurn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&contextUrns=urn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=ei8uLBmtTJOgnTqM7qQo5g%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4395479506%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4395479506",
+          "text": "Show match details",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc%7Eurn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&contextUrns=urn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=hb%2F%2BA3VJQfeg96xyWUikcA%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2CjobPostingId%7E%3A4395479506%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4395479506",
+          "text": "Tailor my resume",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc%7Eurn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&contextUrns=urn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=w1Z926jGTl%2BU%2FcN%2BaPdrRg%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4395479506%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4395479506",
+          "text": "Help me stand out",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail",
+          "text": "Post a job",
+          "visible": true
+        },
+        {
+          "href": "https://about.linkedin.com/",
+          "text": "About",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/accessibility/",
+          "text": "Accessibility",
+          "visible": true
+        },
+        {
+          "href": "https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer",
+          "text": "Talent Solutions",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/legal/professional-community-policies/",
+          "text": "Community Guidelines",
+          "visible": true
+        },
+        {
+          "href": "https://careers.linkedin.com/",
+          "text": "Careers",
+          "visible": true
+        },
+        {
+          "href": "https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer",
+          "text": "Marketing Solutions",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/help/linkedin/answer/62931/",
+          "text": "Ad Choices",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr",
+          "text": "Advertising",
+          "visible": true
+        },
+        {
+          "href": "https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer",
+          "text": "Sales Solutions",
+          "visible": true
+        },
+        {
+          "href": "https://mobile.linkedin.com/",
+          "text": "Mobile",
+          "visible": true
+        },
+        {
+          "href": "https://business.linkedin.com/grow?src=li-footer",
+          "text": "Small Business",
+          "visible": true
+        },
+        {
+          "href": "https://safety.linkedin.com/",
+          "text": "Safety Center",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/help/linkedin/",
+          "text": "Questions?",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/mypreferences/d/",
+          "text": "Manage your account and privacy",
+          "visible": true
+        },
+        {
+          "href": "https://www.linkedin.com/help/linkedin/answer/a1339724/",
+          "text": "Recommendation transparency",
+          "visible": true
+        }
+      ],
+      "loose_fields": [
+        {
+          "id": "\u00abr3\u00bb",
+          "label": null,
+          "name": null,
+          "placeholder": "Search",
+          "tag": "input",
+          "type": "text",
+          "visible": true
+        },
+        {
+          "id": "\u00abr6\u00bb",
+          "label": "",
+          "name": null,
+          "placeholder": null,
+          "tag": "input",
+          "type": "checkbox",
+          "visible": false
+        },
+        {
+          "id": "\u00abr4\u00bb",
+          "label": "Select language",
+          "name": null,
+          "placeholder": null,
+          "tag": "select",
+          "type": "select-one",
+          "visible": true
+        }
+      ],
+      "modals": [],
+      "title": "AI Developer Technology Engineer | NVIDIA | LinkedIn",
+      "url": "https://www.linkedin.com/jobs/view/4395479506/"
+    }
+  },
+  {
+    "frameId": 267,
+    "summary": null
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Skip to search",
+      "visible": false
+    },
+    {
+      "text": "Skip to main content",
+      "visible": false
+    },
+    {
+      "text": "Skip to primary content",
+      "visible": false
+    },
+    {
+      "text": "Skip to aside",
+      "visible": false
+    },
+    {
+      "text": "Skip to footer",
+      "visible": false
+    },
+    {
+      "text": "Close jump menu",
+      "visible": false
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Me",
+      "visible": true
+    },
+    {
+      "text": "For Business",
+      "visible": true
+    },
+    {
+      "text": "More options",
+      "visible": true
+    },
+    {
+      "text": "Saved",
+      "visible": true
+    },
+    {
+      "text": "Next",
+      "visible": true
+    },
+    {
+      "text": "\u2026 more",
+      "visible": true
+    },
+    {
+      "text": "Privacy & Terms",
+      "visible": true
+    }
+  ],
+  "forms": [],
+  "links": [
+    {
+      "href": "https://www.linkedin.com/mynetwork",
+      "text": "My Network",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/jobs/",
+      "text": "Jobs",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/messaging/",
+      "text": "Messaging",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/notifications/",
+      "text": "25\nNotifications",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/talent/job-posting-redirect/?trk=nav_spotlight_post_job",
+      "text": "Hire with AI",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/company/nvidia/life/",
+      "text": "NVIDIA",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/jobs/view/4395479506/",
+      "text": "Full-time",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fnvidia%2Ewd5%2Emyworkdayjobs%2Ecom%2FNVIDIAExternalCareerSite%2Fjob%2FIndia-Bengaluru%2FAI-Developer-Technology-Engineer_JR2008156%3Fsource%3Djobboardlinkedin&urlhash=O7lS&mt=8trbAHGx7MOKPxdM4RZ_GYbjoXlfjPleZgJIhDiNHfQLyHR2dlSnHEw4ARstfZf6Xo35i85ElSBpR4VVbOrTSSleBP3a&isSdui=true",
+      "text": "Apply",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/premium/redeem/?_ed=0_bvLJH59RTSY-u5c6PMUa4IW0M54p9mxZpuVkfRvTl7r&upsellOrderOrigin=Tracking%3Av1%3Apremium_job_details_how_you_fit_upsell_winback%3AJob+Seeker%3AIn-Product&referenceId=5Xuyg8gnTgOS7D%2FVjW84wg%3D%3D&customKey=wb_c&redeemTypeV2=DISCOUNT",
+      "text": "Reactivate Premium: 50% Off",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/preload/guideOverlay/?interop=guideOverlay&query=Show+match+details&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc%7Eurn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&contextUrns=urn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=ei8uLBmtTJOgnTqM7qQo5g%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_FIT_EXPLANATION%2CjobPostingId%7E%3A4395479506%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4395479506",
+      "text": "Show match details",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/preload/guideOverlay/?interop=guideOverlay&query=Tailor+my+resume&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc%7Eurn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&contextUrns=urn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=hb%2F%2BA3VJQfeg96xyWUikcA%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_RESUME_ASSISTANCE%2CjobPostingId%7E%3A4395479506%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4395479506",
+      "text": "Tailor my resume",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/preload/guideOverlay/?interop=guideOverlay&query=Help+me+stand+out&originalThreadMailbox=urn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&conversationUrn=urn%3Ali%3Afsu_guideConversationV2%3Aurn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc%7Eurn%3Ali%3AguideJobs%3AACoAAErs9xABi0myPJa7rjQ0rFWGsNd87EMnQ9Q&contextUrns=urn%3Ali%3Aguide%3A4799e5f3bfe60acf1eb9d36548b8dc37e3839bf72823f0c76d274bf0e33e44bc&intent=GuideIntent_JOB_SEEKING_AGENT&originalIntent=GuideIntent_JOB_SEEKING_AGENT&trackingId=w1Z926jGTl%2BU%2FcN%2BaPdrRg%3D%3D&customContext=subIntent%7E%3AJobSeekerAgentIntent_JOB_RECOMMENDED_ACTIONS%2CjobPostingId%7E%3A4395479506%2ChasHistory%7E%3Afalse&isZeroState=true&pageContextJobPostingUrns=urn%3Ali%3Afsd_jobPosting%3A4395479506",
+      "text": "Help me stand out",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/talent/job-posting-redirect/?trk=flagship3_job_detail",
+      "text": "Post a job",
+      "visible": true
+    },
+    {
+      "href": "https://about.linkedin.com/",
+      "text": "About",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/accessibility/",
+      "text": "Accessibility",
+      "visible": true
+    },
+    {
+      "href": "https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer",
+      "text": "Talent Solutions",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/legal/professional-community-policies/",
+      "text": "Community Guidelines",
+      "visible": true
+    },
+    {
+      "href": "https://careers.linkedin.com/",
+      "text": "Careers",
+      "visible": true
+    },
+    {
+      "href": "https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer",
+      "text": "Marketing Solutions",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/help/linkedin/answer/62931/",
+      "text": "Ad Choices",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr",
+      "text": "Advertising",
+      "visible": true
+    },
+    {
+      "href": "https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer",
+      "text": "Sales Solutions",
+      "visible": true
+    },
+    {
+      "href": "https://mobile.linkedin.com/",
+      "text": "Mobile",
+      "visible": true
+    },
+    {
+      "href": "https://business.linkedin.com/grow?src=li-footer",
+      "text": "Small Business",
+      "visible": true
+    },
+    {
+      "href": "https://safety.linkedin.com/",
+      "text": "Safety Center",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/help/linkedin/",
+      "text": "Questions?",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/mypreferences/d/",
+      "text": "Manage your account and privacy",
+      "visible": true
+    },
+    {
+      "href": "https://www.linkedin.com/help/linkedin/answer/a1339724/",
+      "text": "Recommendation transparency",
+      "visible": true
+    }
+  ],
+  "loose_fields": [
+    {
+      "id": "\u00abr3\u00bb",
+      "label": null,
+      "name": null,
+      "placeholder": "Search",
+      "tag": "input",
+      "type": "text",
+      "visible": true
+    },
+    {
+      "id": "\u00abr6\u00bb",
+      "label": "",
+      "name": null,
+      "placeholder": null,
+      "tag": "input",
+      "type": "checkbox",
+      "visible": false
+    },
+    {
+      "id": "\u00abr4\u00bb",
+      "label": "Select language",
+      "name": null,
+      "placeholder": null,
+      "tag": "select",
+      "type": "select-one",
+      "visible": true
+    }
+  ],
+  "modals": [],
+  "title": "AI Developer Technology Engineer | NVIDIA | LinkedIn",
+  "url": "https://www.linkedin.com/jobs/view/4395479506/"
+}
+
+decision:
+{
+  "page_state": "in_transit",
+  "reasoning": "The current page is a LinkedIn job description page for NVIDIA. I am looking for an 'Apply' link to move toward the goal. I considered signin_required, but no login form is visible or present on the page, so it's not currently blocking me.",
+  "action": {
+    "type": "click",
+    "target": "Apply"
+  }
+}
+
+===== STEP 2 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": true
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Apply",
+          "visible": true
+        },
+        {
+          "text": "View All 5 Jobs",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply?source=jobboardlinkedin",
+          "text": "Apply",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-and-STA-Engineer_JR2021789-1?source=jobboardlinkedin",
+          "text": "ASIC Design and STA Engineer",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer_JR2023198?source=jobboardlinkedin",
+          "text": "Senior Staff Site Reliability Engineer",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-Engineer_JR2019598?source=jobboardlinkedin",
+          "text": "ASIC Design Engineer",
+          "visible": true
+        },
+        {
+          "href": "https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.nvidia.com%2Fobject%2Fabout-nvidia.html%23sthash.qlXKW56Q.dpuf&data=05%7C01%7Chozkan%40nvidia.com%7Cf442a08620ed4ab9afb108db18e6d308%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C638131151878484303%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=DjpWGYWzl3J2uwSP6woYwjdRi52yvWRVeAijKer9u%2Fk%3D&reserved=0",
+          "text": "NVIDIA",
+          "visible": true
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        }
+      ],
+      "loose_fields": [],
+      "modals": [],
+      "title": "AI Developer Technology Engineer",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": true
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Apply",
+      "visible": true
+    },
+    {
+      "text": "View All 5 Jobs",
+      "visible": true
+    }
+  ],
+  "forms": [],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply?source=jobboardlinkedin",
+      "text": "Apply",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-and-STA-Engineer_JR2021789-1?source=jobboardlinkedin",
+      "text": "ASIC Design and STA Engineer",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer_JR2023198?source=jobboardlinkedin",
+      "text": "Senior Staff Site Reliability Engineer",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-Engineer_JR2019598?source=jobboardlinkedin",
+      "text": "ASIC Design Engineer",
+      "visible": true
+    },
+    {
+      "href": "https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.nvidia.com%2Fobject%2Fabout-nvidia.html%23sthash.qlXKW56Q.dpuf&data=05%7C01%7Chozkan%40nvidia.com%7Cf442a08620ed4ab9afb108db18e6d308%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C638131151878484303%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=DjpWGYWzl3J2uwSP6woYwjdRi52yvWRVeAijKer9u%2Fk%3D&reserved=0",
+      "text": "NVIDIA",
+      "visible": true
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    }
+  ],
+  "loose_fields": [],
+  "modals": [],
+  "title": "AI Developer Technology Engineer",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin"
+}
+
+decision:
+{
+  "page_state": "in_transit",
+  "reasoning": "The page is currently showing the job description for 'AI Developer Technology Engineer', and the 'Apply' link is visible and can be clicked to move toward the goal. I considered signin_required, but since there is no visible login form, it is not blocking me right now.",
+  "action": {
+    "type": "click",
+    "target": "Apply"
+  }
+}
+
+===== STEP 3 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": false
+        },
+        {
+          "text": "Home",
+          "visible": false
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": false
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Apply",
+          "visible": false
+        },
+        {
+          "text": "View All 5 Jobs",
+          "visible": true
+        },
+        {
+          "text": "Close",
+          "visible": true
+        },
+        {
+          "text": "Autofill with Resume",
+          "visible": true
+        },
+        {
+          "text": "Apply Manually",
+          "visible": true
+        },
+        {
+          "text": "Use My Last Application",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply?source=jobboardlinkedin",
+          "text": "Apply",
+          "visible": false
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-and-STA-Engineer_JR2021789-1?source=jobboardlinkedin",
+          "text": "ASIC Design and STA Engineer",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer_JR2023198?source=jobboardlinkedin",
+          "text": "Senior Staff Site Reliability Engineer",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-Engineer_JR2019598?source=jobboardlinkedin",
+          "text": "ASIC Design Engineer",
+          "visible": true
+        },
+        {
+          "href": "https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.nvidia.com%2Fobject%2Fabout-nvidia.html%23sthash.qlXKW56Q.dpuf&data=05%7C01%7Chozkan%40nvidia.com%7Cf442a08620ed4ab9afb108db18e6d308%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C638131151878484303%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=DjpWGYWzl3J2uwSP6woYwjdRi52yvWRVeAijKer9u%2Fk%3D&reserved=0",
+          "text": "NVIDIA",
+          "visible": false
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/autofillWithResume?source=jobboardlinkedin",
+          "text": "Autofill with Resume",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Apply Manually",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/useMyLastApplication?source=jobboardlinkedin",
+          "text": "Use My Last Application",
+          "visible": true
+        }
+      ],
+      "loose_fields": [],
+      "modals": [
+        {
+          "buttons": [],
+          "class": null,
+          "detected_via": "known_pattern",
+          "links": [],
+          "visible": false
+        },
+        {
+          "buttons": [
+            {
+              "text": "Close",
+              "visible": true
+            },
+            {
+              "text": "Autofill with Resume",
+              "visible": true
+            },
+            {
+              "text": "Apply Manually",
+              "visible": true
+            },
+            {
+              "text": "Use My Last Application",
+              "visible": true
+            }
+          ],
+          "class": "workday-popup-centeringRoot workday-popup-fullGlass",
+          "detected_via": "known_pattern",
+          "links": [
+            {
+              "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/autofillWithResume?source=jobboardlinkedin",
+              "text": "Autofill with Resume",
+              "visible": true
+            },
+            {
+              "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+              "text": "Apply Manually",
+              "visible": true
+            },
+            {
+              "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/useMyLastApplication?source=jobboardlinkedin",
+              "text": "Use My Last Application",
+              "visible": true
+            }
+          ],
+          "visible": true
+        }
+      ],
+      "title": "AI Developer Technology Engineer",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin"
+    }
+  },
+  {
+    "frameId": 284,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Apply With LinkedIn",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [],
+      "loose_fields": [],
+      "modals": [
+        {
+          "buttons": [],
+          "class": "btn-md px-2 btn-overlay flex items-center py-0 w-max",
+          "detected_via": "known_pattern",
+          "links": [],
+          "visible": true
+        }
+      ],
+      "title": "Apply With LinkedIn",
+      "url": "https://www.linkedin.com/talentwidgets/apply-with-linkedin#xdOrigin=https%3A%2F%2Fapplywithlinkedin.myworkdaygadgets.com&xdChannel=4c8336c3-e8ce-4c4d-94e1-2b8792ad35bd"
+    }
+  },
+  {
+    "frameId": 282,
+    "summary": {
+      "buttons": [],
+      "forms": [],
+      "links": [],
+      "loose_fields": [],
+      "modals": [],
+      "title": "",
+      "url": "https://applywithlinkedin.myworkdaygadgets.com/awli/"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": false
+    },
+    {
+      "text": "Home",
+      "visible": false
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": false
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Apply",
+      "visible": false
+    },
+    {
+      "text": "View All 5 Jobs",
+      "visible": true
+    },
+    {
+      "text": "Close",
+      "visible": true
+    },
+    {
+      "text": "Autofill with Resume",
+      "visible": true
+    },
+    {
+      "text": "Apply Manually",
+      "visible": true
+    },
+    {
+      "text": "Use My Last Application",
+      "visible": true
+    }
+  ],
+  "forms": [],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply?source=jobboardlinkedin",
+      "text": "Apply",
+      "visible": false
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-and-STA-Engineer_JR2021789-1?source=jobboardlinkedin",
+      "text": "ASIC Design and STA Engineer",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/Senior-Staff-Site-Reliability-Engineer_JR2023198?source=jobboardlinkedin",
+      "text": "Senior Staff Site Reliability Engineer",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India-Bengaluru/ASIC-Design-Engineer_JR2019598?source=jobboardlinkedin",
+      "text": "ASIC Design Engineer",
+      "visible": true
+    },
+    {
+      "href": "https://nam11.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.nvidia.com%2Fobject%2Fabout-nvidia.html%23sthash.qlXKW56Q.dpuf&data=05%7C01%7Chozkan%40nvidia.com%7Cf442a08620ed4ab9afb108db18e6d308%7C43083d15727340c1b7db39efd9ccc17a%7C0%7C0%7C638131151878484303%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=DjpWGYWzl3J2uwSP6woYwjdRi52yvWRVeAijKer9u%2Fk%3D&reserved=0",
+      "text": "NVIDIA",
+      "visible": false
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/autofillWithResume?source=jobboardlinkedin",
+      "text": "Autofill with Resume",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+      "text": "Apply Manually",
+      "visible": true
+    },
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/useMyLastApplication?source=jobboardlinkedin",
+      "text": "Use My Last Application",
+      "visible": true
+    }
+  ],
+  "loose_fields": [],
+  "modals": [
+    {
+      "buttons": [],
+      "class": null,
+      "detected_via": "known_pattern",
+      "links": [],
+      "visible": false
+    },
+    {
+      "buttons": [
+        {
+          "text": "Close",
+          "visible": true
+        },
+        {
+          "text": "Autofill with Resume",
+          "visible": true
+        },
+        {
+          "text": "Apply Manually",
+          "visible": true
+        },
+        {
+          "text": "Use My Last Application",
+          "visible": true
+        }
+      ],
+      "class": "workday-popup-centeringRoot workday-popup-fullGlass",
+      "detected_via": "known_pattern",
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/autofillWithResume?source=jobboardlinkedin",
+          "text": "Autofill with Resume",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Apply Manually",
+          "visible": true
+        },
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/useMyLastApplication?source=jobboardlinkedin",
+          "text": "Use My Last Application",
+          "visible": true
+        }
+      ],
+      "visible": true
+    }
+  ],
+  "title": "AI Developer Technology Engineer",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/India-Bengaluru/AI-Developer-Technology-Engineer_JR2008156?source=jobboardlinkedin"
+}
+
+decision:
+{
+  "page_state": "in_transit",
+  "reasoning": "A modal with the text 'Autofill with Resume', 'Apply Manually', and 'Use My Last Application' is visible, which means I must deal with it before proceeding. I did not consider signin_required because there are no visible sign-in forms on the page, and the 'Sign In' button is not currently visible or blocking the main goal.",
+  "action": {
+    "type": "click",
+    "target": "Apply Manually"
+  }
+}
+
+===== STEP 4 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": true
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Back to Job Posting",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        }
+      ],
+      "loose_fields": [],
+      "modals": [],
+      "title": "AI Developer Technology Engineer",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": true
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Back to Job Posting",
+      "visible": true
+    }
+  ],
+  "forms": [],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    }
+  ],
+  "loose_fields": [],
+  "modals": [],
+  "title": "AI Developer Technology Engineer",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+}
+
+decision:
+{
+  "page_state": "application_form",
+  "reasoning": "The summary shows that the page is the application form for the job 'AI Developer Technology Engineer'. While 'Sign In' is a button, it's a page-level navigation element, not a blocking modal or a visible login form. I considered signin_required and rejected it because there no visible login form on the page that prevents me from proceeding with the application manually via 'applyManually'.",
+  "action": {
+    "type": "click",
+    "target": "Skip to main content"
+  }
+}
+
+===== STEP 5 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": true
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Back to Job Posting",
+          "visible": true
+        },
+        {
+          "text": "Sign in with Google",
+          "visible": true
+        },
+        {
+          "text": "Sign in with email",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        }
+      ],
+      "loose_fields": [],
+      "modals": [],
+      "title": "Sign In",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": true
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Back to Job Posting",
+      "visible": true
+    },
+    {
+      "text": "Sign in with Google",
+      "visible": true
+    },
+    {
+      "text": "Sign in with email",
+      "visible": true
+    }
+  ],
+  "forms": [],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    }
+  ],
+  "loose_fields": [],
+  "modals": [],
+  "title": "Sign In",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+}
+
+===== STEP 6 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": true
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Back to Job Posting",
+          "visible": true
+        },
+        {
+          "text": "Sign in with Google",
+          "visible": true
+        },
+        {
+          "text": "Sign in with email",
+          "visible": true
+        }
+      ],
+      "forms": [],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        }
+      ],
+      "loose_fields": [],
+      "modals": [],
+      "title": "Sign In",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": true
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Back to Job Posting",
+      "visible": true
+    },
+    {
+      "text": "Sign in with Google",
+      "visible": true
+    },
+    {
+      "text": "Sign in with email",
+      "visible": true
+    }
+  ],
+  "forms": [],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    }
+  ],
+  "loose_fields": [],
+  "modals": [],
+  "title": "Sign In",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+}
+
+decision:
+{
+  "page_state": "signin_required",
+  "reasoning": "The page title is \"Sign In\" and it contains buttons for \"Sign in with Google\", \"Sign in with email\", and \"Sign In\". Since I am applying for a job, to proceed toward the goal of completing and submitting the application, I must sign in first. I considered signin_required and concluded it is required because the page is a sign-in page, not an application form.",
+  "action": {
+    "type": "click",
+    "target": "Sign in with email"
+  }
+}
+
+===== STEP 7 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": true
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Back to Job Posting",
+          "visible": true
+        },
+        {
+          "text": "Create Account",
+          "visible": true
+        },
+        {
+          "text": "Forgot your password?",
+          "visible": true
+        }
+      ],
+      "forms": [
+        {
+          "fields": [
+            {
+              "id": "input-6",
+              "label": "Email Address*",
+              "name": null,
+              "placeholder": null,
+              "tag": "input",
+              "type": "text",
+              "visible": true
+            },
+            {
+              "id": "input-7",
+              "label": "Password*",
+              "name": null,
+              "placeholder": null,
+              "tag": "input",
+              "type": "password",
+              "visible": true
+            }
+          ],
+          "submit_buttons": [
+            {
+              "text": "Sign In",
+              "visible": false
+            }
+          ],
+          "visible": true
+        }
+      ],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        }
+      ],
+      "loose_fields": [
+        {
+          "id": "c760b711-3f3a-47cc-adf6-d2e0dafafa09",
+          "label": "Enter website. This input is for robots only, do not enter if you're human.",
+          "name": "website",
+          "placeholder": null,
+          "tag": "input",
+          "type": "text",
+          "visible": false
+        }
+      ],
+      "modals": [],
+      "title": "Sign In",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": true
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Back to Job Posting",
+      "visible": true
+    },
+    {
+      "text": "Create Account",
+      "visible": true
+    },
+    {
+      "text": "Forgot your password?",
+      "visible": true
+    }
+  ],
+  "forms": [
+    {
+      "fields": [
+        {
+          "id": "input-6",
+          "label": "Email Address*",
+          "name": null,
+          "placeholder": null,
+          "tag": "input",
+          "type": "text",
+          "visible": true
+        },
+        {
+          "id": "input-7",
+          "label": "Password*",
+          "name": null,
+          "placeholder": null,
+          "tag": "input",
+          "type": "password",
+          "visible": true
+        }
+      ],
+      "submit_buttons": [
+        {
+          "text": "Sign In",
+          "visible": false
+        }
+      ],
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    }
+  ],
+  "loose_fields": [
+    {
+      "id": "c760b711-3f3a-47cc-adf6-d2e0dafafa09",
+      "label": "Enter website. This input is for robots only, do not enter if you're human.",
+      "name": "website",
+      "placeholder": null,
+      "tag": "input",
+      "type": "text",
+      "visible": false
+    }
+  ],
+  "modals": [],
+  "title": "Sign In",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+}
+
+decision:
+{
+  "page_state": "signin_required",
+  "reasoning": "The page title is 'Sign In' and the form with 'Email Address*' and 'Password*' fields is visible: true, which means a sign-in is required to proceed with the application. I considered signin_required for this page, and since the login form is visible and is the main content of the page, I have accepted it.",
+  "action": {
+    "type": "fill",
+    "target": "Email Address*",
+    "value": "__CREDENTIAL__"
+  }
+}
+
+===== STEP 8 =====
+used_frame_id: 0
+all_frames_captured (raw, includes what's NOT sent to Gemini):
+[
+  {
+    "frameId": 0,
+    "summary": {
+      "buttons": [
+        {
+          "text": "Sign In",
+          "visible": true
+        },
+        {
+          "text": "Home",
+          "visible": true
+        },
+        {
+          "text": "Search for Jobs",
+          "visible": true
+        },
+        {
+          "text": "main menu",
+          "visible": false
+        },
+        {
+          "text": "Back to Job Posting",
+          "visible": true
+        },
+        {
+          "text": "Create Account",
+          "visible": true
+        },
+        {
+          "text": "Forgot your password?",
+          "visible": true
+        }
+      ],
+      "forms": [
+        {
+          "fields": [
+            {
+              "id": "input-6",
+              "label": "Email Address*",
+              "name": null,
+              "placeholder": null,
+              "tag": "input",
+              "type": "text",
+              "visible": true
+            },
+            {
+              "id": "input-7",
+              "label": "Password*",
+              "name": null,
+              "placeholder": null,
+              "tag": "input",
+              "type": "password",
+              "visible": true
+            }
+          ],
+          "submit_buttons": [
+            {
+              "text": "Sign In",
+              "visible": false
+            }
+          ],
+          "visible": true
+        }
+      ],
+      "links": [
+        {
+          "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+          "text": "Skip to main content",
+          "visible": true
+        },
+        {
+          "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+          "text": "Applicant Privacy Policy",
+          "visible": true
+        }
+      ],
+      "loose_fields": [
+        {
+          "id": "c760b711-3f3a-47cc-adf6-d2e0dafafa09",
+          "label": "Enter website. This input is for robots only, do not enter if you're human.",
+          "name": "website",
+          "placeholder": null,
+          "tag": "input",
+          "type": "text",
+          "visible": false
+        }
+      ],
+      "modals": [],
+      "title": "Sign In",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+    }
+  }
+]
+
+summary_sent_to_gemini:
+{
+  "buttons": [
+    {
+      "text": "Sign In",
+      "visible": true
+    },
+    {
+      "text": "Home",
+      "visible": true
+    },
+    {
+      "text": "Search for Jobs",
+      "visible": true
+    },
+    {
+      "text": "main menu",
+      "visible": false
+    },
+    {
+      "text": "Back to Job Posting",
+      "visible": true
+    },
+    {
+      "text": "Create Account",
+      "visible": true
+    },
+    {
+      "text": "Forgot your password?",
+      "visible": true
+    }
+  ],
+  "forms": [
+    {
+      "fields": [
+        {
+          "id": "input-6",
+          "label": "Email Address*",
+          "name": null,
+          "placeholder": null,
+          "tag": "input",
+          "type": "text",
+          "visible": true
+        },
+        {
+          "id": "input-7",
+          "label": "Password*",
+          "name": null,
+          "placeholder": null,
+          "tag": "input",
+          "type": "password",
+          "visible": true
+        }
+      ],
+      "submit_buttons": [
+        {
+          "text": "Sign In",
+          "visible": false
+        }
+      ],
+      "visible": true
+    }
+  ],
+  "links": [
+    {
+      "href": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin",
+      "text": "Skip to main content",
+      "visible": true
+    },
+    {
+      "href": "https://www.nvidia.com/en-us/about-nvidia/careers/applicant-privacy-policy/",
+      "text": "Applicant Privacy Policy",
+      "visible": true
+    }
+  ],
+  "loose_fields": [
+    {
+      "id": "c760b711-3f3a-47cc-adf6-d2e0dafafa09",
+      "label": "Enter website. This input is for robots only, do not enter if you're human.",
+      "name": "website",
+      "placeholder": null,
+      "tag": "input",
+      "type": "text",
+      "visible": false
+    }
+  ],
+  "modals": [],
+  "title": "Sign In",
+  "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/India%2C-Bengaluru/AI-Developer-Technology-Engineer_JR2008156/apply/applyManually?source=jobboardlinkedin"
+}
+
+decision:
+{
+  "page_state": "signin_required",
+  "reasoning": "The page title is 'Sign In' and it contains a visible 'Email Address*' and 'Email Address*' (id: 'input-6') and 'Password*' (id: 'input-7') fields within a visible form. I considered signin_required for this page and I am accepting it because the login form is visible and is the primary purpose of this page.",
+  "action": {
+    "type": "fill",
+    "target": "Email Address*",
+    "value": "__CREDENTIAL__"
+  }
+}

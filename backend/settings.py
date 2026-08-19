@@ -19,14 +19,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv(Path(__file__).resolve().parent / '.env')
 
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
-
-# Job-source API keys: separate dev keys/accounts exist specifically so
-# Graph 1 can be exercised for real during development without eating into
-# the tight production credit budgets (esp. TheirStack's 200/mo — see
+# Job-source + Gemini API keys: separate dev keys/accounts exist specifically
+# so Graph 1/2 can be exercised for real during development without eating
+# into tight production budgets (esp. TheirStack's 200/mo — see
 # agent_memory/sentinel_project.md). IS_DEV picks which set loads; sources/
-# *.py fetchers should read these settings values, not os.getenv directly,
-# so there is exactly one place that decides dev vs prod.
+# *.py and graphs/nodes/*.py should read these settings values, not
+# os.getenv directly, so there is exactly one place that decides dev vs prod.
 IS_DEV = os.getenv('IS_DEV', 'False') == 'True'
 
 if IS_DEV:
@@ -34,15 +32,23 @@ if IS_DEV:
     JOBSPIPE_API_KEY = os.getenv('JOBSPIPE_DEV_KEY')
     ADZUNA_API_KEY = os.getenv('ADZUNA_DEV_KEY')
     ADZUNA_ID = os.getenv('ADZUNA_DEV_ID')
+    GEMINI_API_KEY = os.getenv('GEMINI_DEV_KEY')
 else:
     THEIRSTACK_API_KEY = os.getenv('THEIRSTACK_API_KEY')
     JOBSPIPE_API_KEY = os.getenv('JOBSPIPE_API_KEY')
     ADZUNA_API_KEY = os.getenv('ADZUNA_API_KEY')
     ADZUNA_ID = os.getenv('ADZUNA_ID')
+    GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 # Gmail API OAuth client (Desktop app type) — used for failure-notification
 # emails (core/gmail_notify.py). GMAIL_TOKEN_PATH is where the one-time
 # local auth flow caches the refresh token; gitignored, never committed.
+# Your own real LinkedIn login — deliberately .env-only, not the DB (see
+# agent_memory/sentinel_project.md: SiteAccount is for agent-generated
+# per-domain signups, this is your personal static identity).
+LINKEDIN_EMAIL = os.getenv('LINKEDIN_EMAIL')
+LINKEDIN_PASSWORD = os.getenv('LINKEDIN_PASSWORD')
+
 GOOGLE_CLIENT_ID = os.getenv('CLIENT_ID')
 GOOGLE_CLIENT_SECRET = os.getenv('CLIENT_KEY')
 GMAIL_NOTIFY_ADDRESS = 'manojshendre.1202@gmail.com'
@@ -73,7 +79,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core',
+    'backend.core',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,50 @@
+services:
+
+  # ── Django (Waitress) — plain HTTP: API, admin, static ──────────────────
+  django:
+    build: .
+    command: python server.py
+    env_file: backend/.env
+    environment:
+      - DJANGO_SETTINGS_MODULE=backend.settings
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - worker
+    restart: unless-stopped
+
+  # ── Sentinel worker — owns the extension WebSocket + LangGraph loop ─────
+  worker:
+    build: .
+    command: python -m worker.main
+    env_file: backend/.env
+    environment:
+      - DJANGO_SETTINGS_MODULE=backend.settings
+      - EXTENSION_WS_PORT=8140
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+
+  # ── Nginx ─────────────────────────────────────────────────────────────
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.docker.conf:/etc/nginx/nginx.conf:ro
+      - certbot_conf:/etc/letsencrypt:ro
+      - certbot_www:/var/www/certbot:ro
+    depends_on:
+      - django
+      - worker
+    restart: unless-stopped
+
+  # ── Certbot (TLS cert issuance/renewal) ──────────────────────────────────
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - certbot_conf:/etc/letsencrypt
+      - certbot_www:/var/www/certbot
+
+volumes:
+  certbot_conf:
+  certbot_www:

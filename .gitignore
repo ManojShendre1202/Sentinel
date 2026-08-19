@@ -7,6 +7,9 @@ venv/
 staticfiles/
 media/
 gmail_token.json
-graphs/checkpoints.sqlite
-graphs/batch_data/
+backend/graphs/checkpoints.sqlite
+backend/graphs/batch_data/
 .langgraph_api/
+linkedin_state.json
+backend/**/migrations/
+backend/docs/
